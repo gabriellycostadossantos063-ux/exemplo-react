@@ -1,0 +1,45 @@
+body {
+    background-color: #EEE;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 0 0 20px 0;
+}
+
+header {
+    background-color: #af6b4c;
+    color: #FFF;
+    text-align: center;
+    padding: 16px;
+}
+
+header a {
+    text-decoration: none;
+    background-color: #6d4330;
+    color: #FFF;
+    border-radius: 4px;
+    padding: 10PX 20PX;
+    transition: background-color 1s ease;
+}
+header a:hover {
+    background-color: #351f15;
+}
+/* Além do :hover existem também os estados :focus e :active que podem ser usados para melhorar a acessibilidade e a experiência do usuário */
+main {
+    padding: 16px; /*   %    rem  */
+}
+
+section {
+    background-color: #FFF;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px 0;
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
+}
+
+.last {
+    margin-bottom: 80px;
+}
