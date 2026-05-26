@@ -8,7 +8,7 @@ h1 {
 }
 
 header {
-    background-color: #af6b4c;
+    background-color: #af4c4c;
     color: #FFF;
     text-align: center;
     padding: 16px;
@@ -16,14 +16,14 @@ header {
 
 header a {
     text-decoration: none;
-    background-color: #6d4330;
+    background-color: #911919;
     color: #FFF;
     border-radius: 4px;
     padding: 10PX 20PX;
     transition: background-color 1s ease;
 }
 header a:hover {
-    background-color: #351f15;
+    background-color: #35152d;
 }
 /* Além do :hover existem também os estados :focus e :active que podem ser usados para melhorar a acessibilidade e a experiência do usuário */
 main {
